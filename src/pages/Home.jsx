@@ -8,7 +8,7 @@ import Track from "../components/Track";
 import { Context } from "../context/MyState"
 import { addToCart, deleteToCart } from "../redux/cartSlice";
 import { Link } from "react-router-dom";
-import Layout from "../components/layout/layout";
+import Layout from "../components/Layout";
 
 const Home = () => {
   const context=Context();

@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-key */
-import Layout from "../components/layout/layout";
+import Layout from "../components/Layout";
 import Loader from "../components/loader/Loader";
 import { Context } from "../context/MyState"
 

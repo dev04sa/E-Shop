@@ -1,12 +1,12 @@
 import { useDispatch, useSelector } from "react-redux";
 import Modal from "../components/Modal";
-import Layout from "../components/layout/layout";
 import { Context } from "../context/MyState";
 import { deleteToCart } from "../redux/cartSlice";
 import { toast } from "react-toastify";
 import { useEffect, useState } from "react";
 import { addDoc, collection } from "firebase/firestore";
 import { fireDB } from "../firebase/FirebaseConfig";
+import Layout from "../components/Layout";
 
 function Cart() {
   const context = Context();

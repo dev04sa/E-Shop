@@ -3,8 +3,8 @@ import { Context } from "../context/MyState";
 import { addToCart } from "../redux/cartSlice";
 import { toast } from "react-toastify";
 import { useEffect } from "react";
-import Layout from "../components/layout/layout";
 import Filter from "../components/Filter";
+import Layout from "../components/Layout";
 
 
 function Allproducts() {

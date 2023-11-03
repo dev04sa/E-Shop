@@ -6,9 +6,8 @@ import { fireDB } from "../firebase/FirebaseConfig";
 import { useDispatch, useSelector } from "react-redux";
 import { toast } from "react-toastify";
 import { addToCart } from "../redux/cartSlice";
-import Layout from "./layout/layout";
+import Layout from "./Layout";
 
-;
 
 function ProductInfo() {
     const context = Context();

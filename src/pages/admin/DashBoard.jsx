@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unknown-property */
 import { FaUserTie } from "react-icons/fa";
 import { Context } from "../../context/MyState";
-import Layout from "../../components/layout/layout";
 import DashboardTab from "./DashboardTab";
+import Layout from "../../components/Layout";
 
 function Dashboard() {
   const context = Context();

@@ -1,6 +1,6 @@
-import Footer from "../footer/Footer"
-import Navbar from "../navbar/Navbar"
 
+import Navbar from './navbar/Navbar'
+import Footer from './footer/Footer'
 
 // eslint-disable-next-line react/prop-types
 const Layout = ({children}) => {
