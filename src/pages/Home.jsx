@@ -1,13 +1,14 @@
+/* eslint-disable no-unused-vars */
 import { useDispatch, useSelector } from "react-redux";
 import Filter from "../components/Filter";
 import HeroSection from "../components/HeroSection";
 import ProductCard from "../components/ProductCard";
 import Testimonial from "../components/Testimonial";
 import Track from "../components/Track";
-import Layout from "../components/layout/layout"
 import { Context } from "../context/MyState"
 import { addToCart, deleteToCart } from "../redux/cartSlice";
 import { Link } from "react-router-dom";
+import Layout from "../components/layout/layout";
 
 const Home = () => {
   const context=Context();
